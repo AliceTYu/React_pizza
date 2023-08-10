@@ -1,0 +1,27 @@
+.list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    column-gap: 20px;
+}
+
+.item{
+    border-radius: 30px;
+    background-color: #f0eeee;
+    padding: 14px 20px;
+    transition: .5s;
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--text-color);
+    letter-spacing: 0.24px;
+}
+
+.item:hover{
+    transform: scale(1.05);
+}
+
+.item.active{
+    background-color: #282828;
+    color: var(--btn-text-color);
+}

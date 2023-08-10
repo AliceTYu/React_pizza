@@ -1,0 +1,50 @@
+.btn{
+    font-weight: 700;
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 13px 20px;
+    column-gap: 27px;
+
+    color: var(--btn-text-color);
+    border-radius: 30px;
+    background-color: var(--btn-color);
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn::after{
+    position: absolute;
+    width: 1px;
+    height: 25px;
+    top: 10px;
+    left: 78px;
+    opacity: .5;
+    background-color: var(--btn-text-color);
+
+    content: '';
+}
+
+.btn:hover{
+    opacity: .8;
+}
+
+.count{
+    font-weight: 700;
+}
+
+
+.cart{
+    font-size: 17px;
+    margin-right: 8px;
+    display: flex;
+}
+
+.block{
+    display: flex;
+    align-items: center;
+}

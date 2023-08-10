@@ -1,0 +1,23 @@
+.content{
+    padding-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.32px;
+    margin-bottom: 35px;
+}

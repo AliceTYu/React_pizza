@@ -1,0 +1,60 @@
+.selected{
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+}
+
+.sort{
+    font-weight: 700;
+    letter-spacing: 0.21px;
+    display: flex;
+    align-items: center;
+}
+
+.list{
+    text-align: left;
+    position: absolute;
+    padding: 0;
+    top: 0;
+    right: 0;
+    margin-top: 30px;
+}
+
+
+.item{
+    cursor: pointer;
+    transition: .5s;
+}
+
+.item.active{
+    color: var(--btn-color);
+}
+
+.item:hover{
+    opacity: .6;
+}
+
+.item:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.placeholder{
+    border-bottom: 1px dashed var(--btn-color);
+    cursor: pointer;
+    color: var(--btn-color);
+}
+
+.placeholder:hover{
+    opacity: .6;
+}
+
+.icon{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    transition: .5s;
+}
+
+.icon.rotated{
+    transform: rotate(180deg);
+}

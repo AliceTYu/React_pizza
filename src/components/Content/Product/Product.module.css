@@ -1,0 +1,19 @@
+.product{
+    padding-bottom: 45px;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+    row-gap: 65px;
+}
+
+.item{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: calc(100% / 4);
+}
+
+

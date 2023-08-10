@@ -2,28 +2,21 @@ import React from 'react'
 import s from './Product.module.css'
 import Card from './Card/Card';
 
-function Product() {
+function Product({items}) {
+
   return (
     <div className={s.product}>
       <ul className={s.list}>
-        <li className={s.item}>
-            <Card/>
-        </li>
-        <li className={s.item}>
-            <Card/>
-        </li>
-        <li className={s.item}>
-            <Card/>
-        </li>
-        <li className={s.item}>
-            <Card/>
-        </li>
-        <li className={s.item}>
-            <Card/>
-        </li>
-        <li className={s.item}>
-            <Card/>
-        </li>
+
+        {items.map((obj) => (
+            <li className={s.item}>
+              <Card 
+                key={obj.id}
+                {...obj}/>
+            </li>
+          ))}
+        
+
       </ul>
     </div>
   );

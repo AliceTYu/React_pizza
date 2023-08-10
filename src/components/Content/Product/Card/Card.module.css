@@ -6,6 +6,11 @@
     text-align: center;
 }
 
+.img{
+    width: 210px;
+    height: 200px;
+}
+
 .title{
     font-size: 20px;
     font-weight: 800;
@@ -43,6 +48,11 @@
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.04);
 }
 
+.text.disable{
+    opacity: .3;
+    pointer-events: none;
+}
+
 .cart{
     display: flex;
     column-gap: 10px;
@@ -51,7 +61,7 @@
 }
 
 .price{
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.33px;
 }

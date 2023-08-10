@@ -4,7 +4,7 @@ import Product from './Product/Product';
 import Categories from './Categories/Categories';
 import SortPopup from './SortPopup/SortPopup';
 
-function Content() {
+function Content({items}) {
   
   
   return (
@@ -17,7 +17,7 @@ function Content() {
 
       <div className={m.product}>
         <div className={m.title}>Все пиццы</div>
-        <Product/>
+        <Product items={items}/>
       </div>
     </div>
   );

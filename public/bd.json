@@ -1,0 +1,101 @@
+{
+    "pizzas": [
+        {
+            "id" : 0,
+            "imgUrl" : "/image/img_01.jpg",
+            "name" : "Цыпленок барбекю",
+            "price" : 539,
+            "types" : [
+                0,
+                1
+            ],
+            "sizes" : [
+                26,
+                40
+            ],
+            "category" : 0,
+            "rating" : 9
+        },
+        {
+            "id" : 1,
+            "imgUrl" : "/image/img_02.jpg",
+            "name" : "Пицца Жюльен",
+            "price" : 489,
+            "types" : [
+                0,
+                1
+            ],
+            "sizes" : [
+                26,
+                30,
+                40
+            ],
+            "category" : 1,
+            "rating" : 7
+        },
+        {
+            "id" : 1,
+            "imgUrl" : "/image/img_03.jpg",
+            "name" : "Карбонара",
+            "price" : 489,
+            "types" : [
+                0
+            ],
+            "sizes" : [
+                26,
+                30,
+                40
+            ],
+            "category" : 1,
+            "rating" : 6
+        },
+        {
+            "id" : 1,
+            "imgUrl" : "/image/img_04.jpg",
+            "name" : "Гавайская",
+            "price" : 439,
+            "types" : [
+                0,
+                1
+            ],
+            "sizes" : [
+                26,
+                30,
+                40
+            ],
+            "category" : 1,
+            "rating" : 8
+        },
+        {
+            "id" : 1,
+            "imgUrl" : "/image/img_05.jpg",
+            "name" : "Четыре сезона",
+            "price" : 439,
+            "types" : [
+                1
+            ],
+            "sizes" : [
+                30,
+                40
+            ],
+            "category" : 1,
+            "rating" : 5
+        },
+        {
+            "id" : 1,
+            "imgUrl" : "/image/img_06.jpg",
+            "name" : "Четыре сыра",
+            "price" : 489,
+            "types" : [
+                0,
+                1
+            ],
+            "sizes" : [
+                26,
+                30
+            ],
+            "category" : 1,
+            "rating" : 4
+        }
+    ]
+}
